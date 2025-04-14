@@ -17,5 +17,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/backend
 CMD ["tail", "-f","/dev/null"]
 EXPOSE 8000
-#RUN this python    manage.py migrate
+#RUN this   python    manage.py migrate
 #RUNj cspython   manage.py makemigrations
