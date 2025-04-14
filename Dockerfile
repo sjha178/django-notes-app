@@ -18,4 +18,4 @@ COPY . /app/backend
 CMD ["tail", "-f","/dev/null"]
 EXPOSE 8000
 #RUN this python    manage.py migrate
-#RUN   cspython   manage.py makemigrations
+#RUNj cspython   manage.py makemigrations
